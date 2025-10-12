@@ -28,7 +28,7 @@ RUN git clone --depth 1 https://github.com/novnc/noVNC /opt/novnc     && \
 ###############################################################################
 # 3) Install Bitcoin Knots binaries
 ###############################################################################
-ARG BKVER=28.1.knots20250305
+ARG BKVER=29.2.knots20251010
 RUN wget -q https://bitcoinknots.org/files/28.x/${BKVER}/\
 bitcoin-${BKVER}-x86_64-linux-gnu.tar.gz && \
     tar -xf bitcoin-${BKVER}-x86_64-linux-gnu.tar.gz && \
