@@ -142,6 +142,11 @@ docker exec -it bitcoinknots bitcoin-cli getblockchaininfo
 docker exec -it bitcoinknots bitcoin-cli getbestblockhash
 ```
 
+**Get Bitcoin Knots Version**
+``` bash
+docker exec -it bitcoinknots bitcoin-cli getnetworkinfo
+```
+
 check RPC information:
 ``` bash
 docker exec -it bitcoinknots bitcoin-cli getrpcinfo
