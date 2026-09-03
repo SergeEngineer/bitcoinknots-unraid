@@ -61,6 +61,7 @@ Once finished, confirm that image exists in Unraid by listing all images. The fi
 
 ``` bash
 docker images
+docker images | grep bitcoinknots
 ```
 
 ![image](https://github.com/user-attachments/assets/6c908fa5-923a-4338-b780-be7b9abf321f)
